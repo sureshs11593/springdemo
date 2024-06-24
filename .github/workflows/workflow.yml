@@ -1,0 +1,16 @@
+name: Sample worlflow build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sampleworkflowbuildjob:
+    runs-on: ubuntu-latest
+    steps: 
+    - name: TestJobBuild
+      uses: actions/checkout@v4
+
+
+
