@@ -18,7 +18,7 @@ jobs:
     steps:
     - name: TestJobBuildMacOs
       uses: actions/checkout@v4
-  sampleworkflowbuildjob2:
+  sampleworkflowbuildjob3:
     runs-on: windows-latest
     steps:
     - name: TestJobBuildwindows
